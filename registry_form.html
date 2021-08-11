@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="registry_form.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <style>
+      h1 {
+        color: white;
+      }
+    </style>
+    <style>
+      p {
+        color: whitesmoke;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar_container">
+        <a href="/home.html" id="navbar_logo">Tasty Tv </a>
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <li class="navbar_item">
+        <a href="/announcements.html" class="navbar_link">Announcements</a>
+      </li>
+
+      <li class="navbar_item">
+        <a href="/aboutuss.html" class="navbar_link">About Us</a>
+      </li>
+
+      <div id="nav-buttons">
+        <li class="navbar_item">
+          <a href="/login.html" class="navbar_link">Login</a>
+        </li>
+        <li class="navbar_item">
+          <a href="/registry_form.html" class="navbar_link">Register</a>
+        </li>
+      </div>
+    </nav>
+
+    <form action="action_page.php">
+      <div class="container">
+        <h1>Register</h1>
+        <p>Please fill in this form to get full access.</p>
+        <hr />
+
+        <label for="email"><b>Email</b></label>
+        <input
+          type="text"
+          placeholder="Enter Email"
+          name="email"
+          id="email"
+          required
+        />
+
+        <label for="psw"><b>Password</b></label>
+        <input
+          type="password"
+          placeholder="Enter Password"
+          name="psw"
+          id="psw"
+          required
+        />
+
+        <label for="psw-repeat"><b>Repeat Password</b></label>
+        <input
+          type="password"
+          placeholder="Repeat Password"
+          name="psw-repeat"
+          id="psw-repeat"
+          required
+        />
+        <hr />
+
+        <p>
+          By creating an account you agree to our
+          <a href="#">Terms & Privacy</a>.
+        </p>
+        <button type="submit" class="registerbtn">Register</button>
+      </div>
+
+      <div class="container signin">
+        <p>Already have an account? <a href="#">Sign in</a>.</p>
+      </div>
+    </form>
+
+    <footer id="footer">
+      <div id="footer-container">
+        <a class="media-btn" href="">
+          <img
+            src="https://toppng.com/uploads/preview/instagram-logo-white-11617772990hm83lrotse.png"
+            alt=""
+            class="instagram"
+          />
+        </a>
+        <a class="media-btn" href="">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/YouTube_dark_icon_%282017%29.svg/640px-YouTube_dark_icon_%282017%29.svg.png"
+            alt=""
+            class="youtube"
+          />
+        </a>
+        <a class="media-btn" href="">
+          <img
+            src="https://e7.pngegg.com/pngimages/998/533/png-clipart-social-media-computer-icons-twitter-cdr-logo.png"
+            alt=""
+            class="twitter"
+          />
+        </a>
+        <a class="media-btn" href="">
+          <img
+            src="https://toppng.com/uploads/preview/facebook-logo-transparent-black-and-white-11549682037boz6lbuunu.png"
+            alt=""
+            class="facebook"
+          />
+        </a>
+        <a class="media-btn" href="">
+          <img
+            src="https://toppng.com/uploads/preview/linkedin-square-logo-comments-linkedin-icon-black-11563087424lpctodfamj.png"
+            alt=""
+            class="linkedin"
+          />
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>

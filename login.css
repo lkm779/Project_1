@@ -1,0 +1,164 @@
+html {
+  height: 100%;
+  background-color: rgb(12, 12, 12);
+}
+
+body {
+  height: 100%;
+  background-color: rgb(12, 12, 12);
+  position: relative;
+}
+
+.text {
+  color: rgb(223, 222, 222);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  margin: 0%;
+  padding: 0%;
+  background-color: black;
+  height: 12%;
+}
+
+.navbar_item a {
+  display: block;
+  text-align: center;
+  color: white;
+  padding: 14px, 16px;
+  text-decoration: none;
+  background-color: black;
+}
+
+#navbar_logo {
+  color: white;
+  width: 100px;
+  height: 100px;
+  font-size: 30px;
+  background: radial-gradient(
+    30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+}
+
+/* form {
+  border: 3px solid #f1f1f1;
+} */
+
+/* Full-width inputs */
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* button:hover {
+  opacity: 0.8;
+} */
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+@media screen and (max-width: 100%) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+.youtube {
+  padding: 0%;
+  width: 3%;
+  color: black;
+}
+.facebook {
+  padding: 0%;
+  width: 3%;
+  text-decoration: none;
+  color: black;
+}
+.linkedin {
+  padding: 0%;
+  width: 3%;
+  text-decoration: none;
+  color: black;
+}
+.instagram {
+  padding: 0%;
+  width: 3%;
+  text-decoration: none;
+  color: black;
+}
+
+.twitter {
+  padding: 0%;
+  width: 3%;
+  text-decoration: none;
+  color: black;
+}
+
+#footer {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  align-items: center;
+  list-style-type: none;
+  height: 110px;
+  margin: 10px;
+  padding: 15px;
+  bottom: 0%;
+  margin-top: 5%;
+  text-align: center;
+}
+
+#footer a {
+  text-align: center;
+}
+
+.media-btn img {
+  transition: all 1s;
+}
+
+.media-btn img:hover {
+  transform: scale(2);
+}

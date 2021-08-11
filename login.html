@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="login.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+  </head>
+  <style>
+    h1 {
+      color: white;
+    }
+  </style>
+  <style>
+    p {
+      color: whitesmoke;
+    }
+  </style>
+  <body>
+    <nav class="navbar">
+      <div class="navbar_container">
+        <a href="/home.html" id="navbar_logo">Tasty Tv </a>
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <li class="navbar_item">
+        <a href="/announcements.html" class="navbar_link">Announcements</a>
+      </li>
+
+      <li class="navbar_item">
+        <a href="/aboutuss.html" class="navbar_link">About Us</a>
+      </li>
+
+      <div id="nav-buttons">
+        <li class="navbar_item">
+          <a href="/login.html" class="navbar_link">Login</a>
+        </li>
+        <li class="navbar_item">
+          <a href="/registry_form.html" class="navbar_link">Register</a>
+        </li>
+      </div>
+    </nav>
+
+    <form action="action_page.php">
+      <div class="container">
+        <h1>Login</h1>
+        <p>Login with your username.</p>
+      </div>
+
+      <div class="container" style="background-color: white;">
+        <input type="text" placeholder="Name" name="name" required />
+        <input type="text" placeholder="Email address" name="mail" required />
+        <label>
+          <input type="checkbox" checked="checked" name="subscribe" /> Keep me
+          logged in
+        </label>
+      </div>
+
+      <div class="container">
+        <input type="submit" value="Login" />
+      </div>
+    </form>
+
+    <footer id="footer">
+      <div id="footer-container">
+        <a class="media-btn" href="">
+          <img
+            src="https://toppng.com/uploads/preview/instagram-logo-white-11617772990hm83lrotse.png"
+            alt=""
+            class="instagram"
+          />
+        </a>
+        <a class="media-btn" href="">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/YouTube_dark_icon_%282017%29.svg/640px-YouTube_dark_icon_%282017%29.svg.png"
+            alt=""
+            class="youtube"
+          />
+        </a>
+        <a class="media-btn" href="">
+          <img
+            src="https://e7.pngegg.com/pngimages/998/533/png-clipart-social-media-computer-icons-twitter-cdr-logo.png"
+            alt=""
+            class="twitter"
+          />
+        </a>
+        <a class="media-btn" href="">
+          <img
+            src="https://toppng.com/uploads/preview/facebook-logo-transparent-black-and-white-11549682037boz6lbuunu.png"
+            alt=""
+            class="facebook"
+          />
+        </a>
+        <a class="media-btn" href="">
+          <img
+            src="https://toppng.com/uploads/preview/linkedin-square-logo-comments-linkedin-icon-black-11563087424lpctodfamj.png"
+            alt=""
+            class="linkedin"
+          />
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
