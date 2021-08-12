@@ -147,4 +147,3 @@ I solved it practically through trial and error. First I tried creating an array
 My favourite functions I could say is the recommendation button which is based on several divs a container and a HTML element representing a clickable button, with standard button functionality. From there the functionality is added through a js file in which an array is included with the list of jpg images from individual files stored in a images folder, then create a function to obtain a random result of these images, right after use let to declare a variable in which equals the image obtained and thus be able to display the image through getElementbyId by declarimg variables that are limited to the scope of a block statement. In summary as a result when clicking on the button a random image is displayed.
 
 
-![image](https://user-images.githubusercontent.com/86687463/129120486-e59a2e62-f952-4953-b20d-8438e143eb4d.png)
